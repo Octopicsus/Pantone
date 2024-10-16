@@ -18,55 +18,52 @@
     src: url('/fonts/Tajawal-Bold.ttf');
 }
 
-body{
+body {
     font-family: 'TajawalR';
     background-color: rgb(255, 252, 246);
 }
 
-.balanceStyle{
+.balanceStyle {
     margin: 8px;
 }
 
-header{
-
-   display: block;
-   width: 100vw;
-   text-decoration: none;
+header {
+    text-decoration: none;
 }
 
-nav{
+nav {
     height: 40px;
     position: relative;
 }
 
-nav > div{
+nav>div {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-a{
+a {
     text-decoration: none;
     margin: 0 20px;
     color: rgb(150, 150, 150);
 }
 
-.TitlePage{
+.TitlePage {
     margin-top: 20px;
     text-align: center;
-    font-size: 34px;
+    font-size: 40px;
     font-family: 'TajawalB';
 }
 
-header p{
-    margin-bottom: 50px;
-}
-
-header span{
+header span {
     font-family: 'TajawalL';
     font-size: 55px;
     color: rgb(58, 58, 58);
+}
+
+header p {
+    margin-bottom: 50px;
 }
 
 .separator {
@@ -76,11 +73,107 @@ header span{
     margin-bottom: 32px;
 }
 
-.Selected{
+.Selected {
     font-weight: bolder;
     color: black;
 }
 
-.mainMenu{
+.mainMenu {
     font-size: 20px;
+    background-color: rgb(235, 235, 235);
+    margin-right: 16px;
 }
+
+.subMenu {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.displayBlock {
+    background-color: rgb(178, 255, 229);
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayBlock>div div {
+    display: block;
+    background-color: rgb(132, 228, 196);
+    padding: 14px 22px;
+    margin: 20px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: 'TajawalB';
+}
+
+.displayInline {
+    background-color: rgb(178, 255, 229);
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.displayInline>div div {
+    display: inline;
+    background-color: rgb(132, 228, 196);
+    padding: 14px 22px;
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: 'TajawalB';
+}
+
+.displayInlineBlock {
+    background-color: rgb(178, 255, 229);
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayInlineBlock>div div {
+    display: inline-block;
+    background-color: rgb(132, 228, 196);
+    padding: 14px 22px;
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: 'TajawalB';
+}
+
+.boxSizing {
+    background-color: rgb(178, 255, 229);
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxSizing>div div {
+    width: 120px;
+    height: 80px;
+    display: block;
+    background-color: rgb(132, 228, 196);
+    padding: 20px 22px;
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: 'TajawalB';
+    text-align: center;
+}
+
+.content-box{
+    box-sizing: content-box;
+}
+
+.border-box{
+    box-sizing: border-box;
+}
+
