@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'TajawalL';
+    src: url('/fonts/Tajawal-Light.ttf');
+}
+
+@font-face {
+    font-family: 'TajawalR';
+    src: url('/fonts/Tajawal-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'TajawalM';
+    src: url('/fonts/Tajawal-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'TajawalB';
+    src: url('/fonts/Tajawal-Bold.ttf');
+}
+
+body{
+    font-family: 'TajawalR';
+    background-color: rgb(255, 252, 246);
+}
+
+.balanceStyle{
+    margin: 8px;
+}
+
+header{
+
+   display: block;
+   width: 100vw;
+   text-decoration: none;
+}
+
+nav{
+    height: 40px;
+    position: relative;
+}
+
+nav > div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: rgb(150, 150, 150);
+}
+
+.TitlePage{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'TajawalB';
+}
+
+header p{
+    margin-bottom: 50px;
+}
+
+header span{
+    font-family: 'TajawalL';
+    font-size: 55px;
+    color: rgb(58, 58, 58);
+}
+
+.separator {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 2px;
+    margin-bottom: 32px;
+}
+
+.Selected{
+    font-weight: bolder;
+    color: black;
+}
