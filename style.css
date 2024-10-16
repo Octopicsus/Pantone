@@ -45,7 +45,7 @@ nav>div {
 
 a {
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 18px;
     color: rgb(150, 150, 150);
 }
 
@@ -81,7 +81,7 @@ header p {
 .mainMenu {
     font-size: 20px;
     background-color: rgb(235, 235, 235);
-    margin-right: 16px;
+    margin-right: 0px;
 }
 
 .subMenu {
@@ -116,7 +116,6 @@ header p {
     justify-content: center;
     align-items: center;
 }
-
 
 .displayInline>div div {
     display: inline;
@@ -169,11 +168,105 @@ header p {
     text-align: center;
 }
 
-.content-box{
+.content-box {
     box-sizing: content-box;
 }
 
-.border-box{
+.border-box {
     box-sizing: border-box;
 }
 
+.Float {
+    background-color: rgb(255, 228, 178);
+    width: 100vw;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Float>div {
+    width: 80%;
+}
+
+.Float div>div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(243, 209, 146);
+    margin: 30px;
+}
+
+.Float .left {
+    float: left;
+}
+
+.Float .right {
+    float: right;
+}
+
+.Clear{
+    background-color: rgb(255, 228, 178);
+    width: 100vw;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Clear>div{
+    width: 80%;
+}
+
+.Clear div>div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(243, 209, 146);
+    margin: 30px;
+    
+}
+
+.Clear .left{
+    float: left;
+    clear: right;
+}
+
+.Clear .right{
+    float: right;
+    clear: left;
+}
+
+.Hidden{
+    background-color: rgb(231, 210, 255);
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.Hidden>div{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-color: rgb(220, 189, 255);
+    padding: 15px;
+}
+
+.Clip{
+    background-color: rgb(231, 210, 255);
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.Clip>div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(220, 189, 255);
+    padding: 15px;
+    overflow: scroll;
+}
