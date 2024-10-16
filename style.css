@@ -233,13 +233,13 @@ header p {
 }
 
 .Clear .left {
-    float: left;
-    clear: right;
+    float: right;
+    clear: left;
 }
 
 .Clear .right {
-    float: right;
-    clear: left;
+    float:left;
+    clear: right;
 }
 
 .Hidden {
