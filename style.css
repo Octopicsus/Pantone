@@ -256,6 +256,10 @@ header p {
     padding: 15px;
 }
 
+.Hidden>div:hover{
+    overflow: scroll;
+}
+
 .Clip {
     background-color: rgb(231, 210, 255);
     width: 100vw;
