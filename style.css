@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'TajawalL';
-    src: url("/Pantone/fonts/Tajawal-Light.ttf");
+    src: url("/pantone/fonts/Tajawal-Light.ttf");
 }
 
 @font-face {
     font-family: 'TajawalR';
-    src: url("/Pantone/fonts/Tajawal-Regular.ttf");
+    src: url("/pantone/fonts/Tajawal-Regular.ttf");
 }
 
 @font-face {
     font-family: 'TajawalM';
-    src: url("/Pantone/fonts/Tajawal-Medium.ttf");
+    src: url("/pantone/fonts/Tajawal-Medium.ttf");
 }
 
 @font-face {
     font-family: 'TajawalB';
-    src: url("/Pantone/fonts/Tajawal-Bold.ttf");
+    src: url("/pantone/fonts/Tajawal-Bold.ttf");
 }
 
 body {
